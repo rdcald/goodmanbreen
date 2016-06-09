@@ -71,7 +71,6 @@ a.navItems {
     float: none;
     margin: 15px 0;
   }
-  /* since 3.1.0 */
   .navbar-collapse.collapse.in {
     display: block!important;
   }
@@ -85,6 +84,9 @@ a.navItems {
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
     background-color: #fff;
+  }
+  .icon-gb2 {
+    color:#004d99 !important;
   }
   .navbar .navbar-collapse ul li a {
     color: #004d99;
@@ -119,8 +121,8 @@ a.navItems {
 }
 .icon-gb2 {
     margin-top:10px;
-    color:white;
-	width: 20em;
+    color: ivory;
+	width: 10em;
 	height: 2em;
 }
 .navbar-collapse ul li a:focus {
@@ -142,18 +144,6 @@ a.navItems {
 }
 .not-transparent .icon-gb2 {
     color:#004d99;
-}
-.add .logo {
-  opacity:1;
-}
-.remove .logo {
-  opacity:0;
-}
-.add .logo2 {
-  opacity:1;
-}
-.remove .logo2 {
-  opacity:0;
 }
 .navbar .navbar-toggle .icon-bar {
   background-color: #004d99;
