@@ -3,10 +3,14 @@ $(window).on("scroll", function () {
     if ($(this).scrollTop() > 550) {
         $(".navbar").addClass("not-transparent");
         $(".navItems").removeClass("transparent");
+        $("img.logo2").addClass("add");       
+        $("img.logo").removeClass("remove");
     }
     else {
         $(".navbar").removeClass("not-transparent");
         $(".navItems").addClass("transparent");
+        $("img.logo2").removeClass("remove");        
+        $("img.logo").addClass("add");
     }
 });
 
